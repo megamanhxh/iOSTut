@@ -14,6 +14,10 @@
 		D838CAFB19F51ABA001A739B /* Tut8Ex1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838CAFA19F51ABA001A739B /* Tut8Ex1Tests.swift */; };
 		D838CB0519F51DC4001A739B /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838CB0419F51DC4001A739B /* SongListTableViewController.swift */; };
 		D838CB0719F51DDB001A739B /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D838CB0619F51DDB001A739B /* SongDetailsViewController.swift */; };
+		D85303CE19F9097700B9544B /* album1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85303CA19F9097700B9544B /* album1.jpg */; };
+		D85303CF19F9097700B9544B /* album2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85303CB19F9097700B9544B /* album2.jpg */; };
+		D85303D019F9097700B9544B /* album3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85303CC19F9097700B9544B /* album3.jpg */; };
+		D85303D119F9097700B9544B /* album4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85303CD19F9097700B9544B /* album4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		D838CAFA19F51ABA001A739B /* Tut8Ex1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tut8Ex1Tests.swift; sourceTree = "<group>"; };
 		D838CB0419F51DC4001A739B /* SongListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
 		D838CB0619F51DDB001A739B /* SongDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
+		D85303CA19F9097700B9544B /* album1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = album1.jpg; path = "../../../Downloads/Media-7/album1.jpg"; sourceTree = "<group>"; };
+		D85303CB19F9097700B9544B /* album2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = album2.jpg; path = "../../../Downloads/Media-7/album2.jpg"; sourceTree = "<group>"; };
+		D85303CC19F9097700B9544B /* album3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = album3.jpg; path = "../../../Downloads/Media-7/album3.jpg"; sourceTree = "<group>"; };
+		D85303CD19F9097700B9544B /* album4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = album4.jpg; path = "../../../Downloads/Media-7/album4.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		D838CAD619F51AB9001A739B = {
 			isa = PBXGroup;
 			children = (
+				D85303C919F9096400B9544B /* images */,
 				D838CAE119F51ABA001A739B /* Tut8Ex1 */,
 				D838CAF719F51ABA001A739B /* Tut8Ex1Tests */,
 				D838CAE019F51ABA001A739B /* Products */,
@@ -113,6 +122,18 @@
 				D838CAF919F51ABA001A739B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D85303C919F9096400B9544B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D85303CA19F9097700B9544B /* album1.jpg */,
+				D85303CB19F9097700B9544B /* album2.jpg */,
+				D85303CC19F9097700B9544B /* album3.jpg */,
+				D85303CD19F9097700B9544B /* album4.jpg */,
+			);
+			name = images;
+			path = Tut8Ex1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85303CF19F9097700B9544B /* album2.jpg in Resources */,
+				D85303D019F9097700B9544B /* album3.jpg in Resources */,
 				D838CAEA19F51ABA001A739B /* Main.storyboard in Resources */,
 				D838CAEF19F51ABA001A739B /* LaunchScreen.xib in Resources */,
 				D838CAEC19F51ABA001A739B /* Images.xcassets in Resources */,
+				D85303CE19F9097700B9544B /* album1.jpg in Resources */,
+				D85303D119F9097700B9544B /* album4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +434,7 @@
 				D838CB0019F51ABA001A739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D838CB0119F51ABA001A739B /* Build configuration list for PBXNativeTarget "Tut8Ex1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +443,7 @@
 				D838CB0319F51ABA001A739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

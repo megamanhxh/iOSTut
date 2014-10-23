@@ -21,6 +21,16 @@ class SongDetailsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    var songTitle = "";
+    var songSinger = "";
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var songLabel: UILabel!
+    
+    override func viewWillAppear(animated: Bool) {
+        titleLabel.text = songTitle;
+        songLabel.text = songSinger;
+    }
 
     /*
     // MARK: - Navigation
